@@ -1,0 +1,80 @@
+
+fieldset {
+	background-color:black;
+	border-radius: 4px;
+}
+
+fieldset label {
+	background-color:black;
+	border-radius: 4px;
+    color:whitesmoke;
+}
+
+legend {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	color: var(--purple);
+	font-size: 14px;
+	font-weight: bold;
+	padding: 3px 5px 3px 7px;
+	width: auto;
+}
+
+table {
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+        
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+tr th {
+    color:whitesmoke;
+	font-size: 15px;
+}
+
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:black;
+    color: white;
+	font-size: 15px;
+
+}
+
+table td:nth-child(5){
+    text-align: left;
+    padding-right: 5%;
+}
+
+table img {
+    height: 60px;
+    width: auto;
+}
+
+button {
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 14px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    align-items: flex-end;
+}
+
+.boton-eliminar {
+    background: tomato;
+}
